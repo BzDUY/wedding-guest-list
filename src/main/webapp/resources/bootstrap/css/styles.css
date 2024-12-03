@@ -1,0 +1,117 @@
+/* Nút Trang Chủ */
+.btn-home {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 10; /* Đảm bảo nút luôn hiển thị trên các phần tử khác */
+}
+
+/* Thân trang */
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+/* Container cho form */
+.form-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+/* Tiêu đề trong form */
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #343a40;
+}
+
+/* Nút chính trong form */
+.btn-primary {
+    width: 100%;
+}
+
+/* Nút nhỏ */
+.btn-sm {
+    padding: 5px 10px;
+}
+
+/* Lỗi form */
+.form-text {
+    font-size: 12px;
+}
+
+/* Nút "Thêm Mới Xe" */
+.btn-add {
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.btn-add:hover {
+    background-color: #0056b3;
+}
+
+/* Bảng */
+.table th, .table td {
+    vertical-align: middle;
+}
+
+.thead-dark th {
+    background-color: #343a40;
+    color: #fff;
+}
+
+/* Container chính */
+.container {
+    margin-top: 30px;
+}
+
+/* Container cho bảng */
+.table-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Tiêu đề trang */
+.page-title {
+    color: #343a40;
+    margin-bottom: 30px;
+}
+
+/* Các nút hành động trong bảng */
+.action-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* Container tìm kiếm */
+.search-container {
+    margin-bottom: 20px;
+}
+
+/* Canh phải cho phần tử */
+.text-right {
+    text-align: right;
+}
+
+/* Đảm bảo kích thước nhỏ cho nút "Trang Chủ" */
+.btn-home {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 10; /* Đảm bảo nút luôn hiển thị trên các phần tử khác */
+}
+.form-text.text-danger {
+    color: red !important;
+    font-size: 0.9em;
+    margin-top: 4px;
+}
+
